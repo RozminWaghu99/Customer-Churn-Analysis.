@@ -50,10 +50,10 @@ he various steps involved in the Machine Learning Pipeline are :
 - Hyperparameter tuning
 - Model Deployment
 - Conclusion
-## Step 1 :
-## Step 2 : Read and Load the Dataset
+
+## Step 1 : Read and Load the Dataset
 We now know that we are working with a typical CSV file (i.e., the delimiter is ,, etc.). We proceed to loading the data into memory.
-## Step 3 : Exploratory Data Analysis & Data Cleaning
+## Step 2 : Exploratory Data Analysis & Data Cleaning
 - Inspect dataset
 - Columns/features in data
 - Length of the dataset
@@ -64,12 +64,12 @@ We now know that we are working with a typical CSV file (i.e., the delimiter is 
 - Check total number of missing values in columns
 - Dimensional Reduction : part 1
 - Creating Independent and Dependent variable
-## Step 4 : Data Visualization
+## Step 3 : Data Visualization
 - Inspecting target column
 - Visualize categorical features relationship with target column
 - Visualize numerical features relationship with target column
 - Visualize Outilers
-## Step 5 : Feature Selection
+## Step 4 : Feature Selection
 Feature selection is the process of reducing the number of input variables when developing a predictive model.
 
 It is desirable to reduce the number of input variables to both reduce the computational cost of modeling and, in some cases, to improve the performance of the model.
@@ -81,7 +81,7 @@ The MI score will fall in the range from 0 to ∞. The higher value, the closer 
 
 - Visualize Features Importance
 - Dimesional Redection : Part 2
-## Step 6 : Feature Engineering
+## Step 5 : Feature Engineering
 Feature engineering is a machine learning technique that leverages data to create new variables that aren’t in the training set. It can produce new features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also enhancing model accuracy. Feature engineering is required when working with machine learning models.
 
 
@@ -93,18 +93,18 @@ Feature engineering is a machine learning technique that leverages data to creat
   The challenge of working with imbalanced datasets is that most machine learning techniques will ignore, and in turn have poor performance on, the minority class, although typically it is performance on the minority class that is most important.
   
   One approach to addressing imbalanced datasets is to oversample the minority class. The simplest approach involves duplicating examples in the minority class, although these examples don’t add any new information to the model. Instead, new examples can be synthesized from the existing examples. This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short.
-## Step 7 : Data Normalization
+## Step 6 : Data Normalization
 It is a common practice in machine learning which consists of transforming numeric columns to a common scale. In machine learning, some feature values differ from others multiple times. The features with higher values will dominate the learning process; however, it does not mean those variables are more important to predict the target. Data normalization transforms multiscaled data to the same scale. After normalization, all variables have a similar influence on the model, improving the stability and performance of the learning algorithm.
-## Step 8 : Model Evaluation
+## Step 7 : Model Evaluation
 Algorithm selection is a key challenge in any machine learning project since there is not an algorithm that is the best across all projects. Generally, we need to evaluate a set of potential candidates and select for further evaluation those that provide better performance.
 
 After Evalution Gradient boosting classifier gives overall better performance in Crossvalidation, accuracy and roc-auc too.
 
 we will only further evaluate the model that presents higher accuracy using the default hyperparameters. As shown above, this corresponds to the gradient boosting model which shows an CV Score of nearly 85.4%.
 
-## Step 9 : Hyperparameter tuning
+## Step 8 : Hyperparameter tuning
 In the grid search method, we create a grid of possible values for hyperparameters. Each iteration tries a combination of hyperparameters in a specific order. It fits the model on each and every combination of hyperparameters possible and records the model performance. Finally, it returns the best model with the best hyperparameters.
-## Step 10 : Model Deployment
+## Step 9 : Model Deployment
 After Evalution Gradient boosting classifier gives overall better performance in Crossvalidation, accuracy and roc-auc too.
 
 ![Capture](https://user-images.githubusercontent.com/108968831/207867839-afa092cf-84ba-4da9-91dc-62f831b5db00.JPG)
