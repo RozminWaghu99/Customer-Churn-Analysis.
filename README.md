@@ -110,7 +110,6 @@ After Evalution Gradient boosting classifier gives overall better performance in
 ![Capture](https://user-images.githubusercontent.com/108968831/207867839-afa092cf-84ba-4da9-91dc-62f831b5db00.JPG)
 
 
-**GradientBoostingClassifier(max_depth=6, min_samples_split=3, n_estimators=80)**
 # **Conculsion**
 
 we have walked through Telco customer Churn dataset. We started by cleaning the data , dimensional reduction and analyzing it with visualization.
