@@ -7,6 +7,9 @@ We can roughly define the Churn analysis as the whole of analytical studies on â
 
 Telco churn data includes information about a fictitious telecom company that provided home phone and Internet services to 7,043 California customers in the third quarter. Which customers have left, stayed, or signed up for their service shows?
 
+
+![317306576_544649757676330_3733256563044219756_n](https://user-images.githubusercontent.com/108968831/207867910-86b976ec-8bde-4f27-85b9-208d7a95b8c9.jpg)
+
 # Business Problem 
 It is desirable to develop a machine learning model that can predict customers who will leave the company. You are expected to perform the necessary data analysis and feature engineering steps before developing the model.
 
@@ -103,6 +106,9 @@ we will only further evaluate the model that presents higher accuracy using the 
 In the grid search method, we create a grid of possible values for hyperparameters. Each iteration tries a combination of hyperparameters in a specific order. It fits the model on each and every combination of hyperparameters possible and records the model performance. Finally, it returns the best model with the best hyperparameters.
 ## Step 10 : Model Deployment
 After Evalution Gradient boosting classifier gives overall better performance in Crossvalidation, accuracy and roc-auc too.
+
+![Capture](https://user-images.githubusercontent.com/108968831/207867839-afa092cf-84ba-4da9-91dc-62f831b5db00.JPG)
+
 
 **GradientBoostingClassifier(max_depth=6, min_samples_split=3, n_estimators=80)**
 # **Conculsion**
