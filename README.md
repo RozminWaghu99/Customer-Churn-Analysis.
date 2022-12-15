@@ -7,8 +7,8 @@ We can roughly define the Churn analysis as the whole of analytical studies on â
 
 Telco churn data includes information about a fictitious telecom company that provided home phone and Internet services to 7,043 California customers in the third quarter. Which customers have left, stayed, or signed up for their service shows?
 
+![images](https://user-images.githubusercontent.com/108968831/207868009-136809e4-be5b-4360-8e40-b41cc99fb41c.jpg)
 
-![317306576_544649757676330_3733256563044219756_n](https://user-images.githubusercontent.com/108968831/207867910-86b976ec-8bde-4f27-85b9-208d7a95b8c9.jpg)
 
 # Business Problem 
 It is desirable to develop a machine learning model that can predict customers who will leave the company. You are expected to perform the necessary data analysis and feature engineering steps before developing the model.
